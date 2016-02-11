@@ -1,0 +1,38 @@
+{
+  "name": "optimizations",
+  "version": "1.0.0",
+  "description": "optimizations project 4 dependencies",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cperry24/Website-optimization.git"
+  },
+  "keywords": [
+    "optimizations",
+    "gulp",
+    "google",
+    "pagespeed",
+    "insights"
+  ],
+  "author": "Cody Perry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cperry24/Website-optimization/issues"
+  },
+  "homepage": "https://github.com/cperry24/Website-optimization#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-jshint": "^2.0.0",
+    "gulp-uglify": "^1.5.1",
+    "jshint": "^2.9.1"
+  },
+  "dependencies": {
+    "critical": "^0.7.0",
+    "imagemin-jpegtran": "^4.3.2",
+    "imagemin-pngquant": "^4.2.0"
+  }
+}
